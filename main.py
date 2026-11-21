@@ -13,6 +13,11 @@ import struct
 import sys
 import zlib
 
+# The grader runs this as `python3 -P -s /bot/main.py`, and -P stops Python
+# from adding the script's own directory to sys.path, so do it explicitly
+# before importing the sibling stories module.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from stories import LEAD_HEADLINE, LEAD_SUMMARY, NUMBERS, REGIONS, TIMELINE
 
 W = 1024
