@@ -1,0 +1,148 @@
+# Story data for "The World in One Day" - Friday 20 November 2026.
+# Every item below happened, or was first reported, on that day.
+# Headlines and summaries are kept short on purpose: the page is dense,
+# and a label that fits is a label that can be read.
+
+LEAD_HEADLINE = "TRUMP, XI, PUTIN PLEDGE PEACE AT SHENZHEN SUMMIT"
+LEAD_SUMMARY = (
+    "The three leaders ended their first trilateral meeting with a pledge "
+    "of peace and stability. Analysts saw more spectacle than progress."
+)
+
+# (region name, bar colour, [(headline, summary), ...])
+REGIONS = [
+    ("EUROPE", (31, 78, 95), [
+        ("RUSSIA UNLEASHES HUGE BARRAGE ON UKRAINE",
+         "400+ drones and 110 missiles; 8 killed, grid hit."),
+        ("RUSSIAN MISSILES HIT POLAND",
+         "Two Kh-101 missiles fell in Poland; no one hurt."),
+        ("BUS STRIKE KILLS 30 IN KRAMATORSK",
+         "A bomb hit a bus, killing at least 30 civilians."),
+        ("UKRAINE RETAKES 14 SETTLEMENTS",
+         "Kyiv retook 14 settlements, hit Crimean Bridge."),
+        ("ZELENSKY: PUTIN IS A 'KILLER'",
+         "He hit back after Trump called Putin a friend."),
+        ("MERZ REJECTS A 'NEW YALTA' FOR EUROPE",
+         "Warned big powers off settling Europe's fate alone."),
+        ("EU AND UK SIGN BRUSSELS DEAL",
+         "Food, emissions trading and youth scheme covered."),
+        ("DENMARK ACCUSES RUSSIA OF MURDER PLOT",
+         "Plot targeted a US-Ukrainian rapper in Denmark."),
+        ("DUTCH EMBASSY DAMAGED IN KYIV",
+         "A projectile struck nearby; envoy summoned."),
+        ("JOANNE YOUNG: FOUR GUILTY",
+         "Four men raped a woman her husband drugged."),
+        ("COP31 DRAFT DROPS FOSSIL FUEL PLEDGE",
+         "Draft drops fossil fuel pledge; talks run late."),
+    ]),
+    ("NORTH AMERICA", (122, 46, 46), [
+        ("ANTHROPIC SLIDES AFTER IPO",
+         "Shares fell after the $81bn IPO as tech sold off."),
+        ("MICROSOFT 365 OUTAGE HITS WORLDWIDE",
+         "Outlook and Teams down 9+ hours worldwide."),
+        ("WHITE HOUSE CYBER CHIEF OUT",
+         "Cairncross quit as cyber director after US outages."),
+        ("TRUMP THREATENS AI CENTRE BAN",
+         "US firms face ban on building AI centres abroad."),
+        ("MAN CONVICTED OVER PALISADES FIRE",
+         "Man started one of California's deadliest blazes."),
+        ("MIGRANT SCAM FINES TOP $811M",
+         "Firms fined $811m kept conning detained migrants."),
+        ("JUDGE EYES REFUGEE FREEZE",
+         "Judge may block freeze on refugees' green cards."),
+        ("CALIFORNIA SUBPOENAS NVIDIA",
+         "State demands records on China risks to investors."),
+        ("BAYER WINS $7.25BN ROUNDUP DEAL",
+         "Judge approved $7.25bn Roundup cancer settlement."),
+        ("GTA 6 SALES TOP $2.3BN",
+         "Estimated sales pass $2.3bn in launch frenzy."),
+    ]),
+    ("ASIA-PACIFIC", (46, 94, 78), [
+        ("ICJ: MYANMAR GENOCIDE RULING",
+         "Court: Myanmar committed genocide on Rohingya."),
+        ("RUSSIAN BOMBERS ENTER TAIWAN ZONE",
+         "Two Tu-95s entered air zone; jets scrambled."),
+        ("US, CHINA AGREE ON HUMAN OVERSIGHT OF AI",
+         "Bessent: Trump and Xi agree humans must decide."),
+        ("US PRESSES SINGAPORE, MALAYSIA ON IRAN",
+         "Warnings over Iran sanctions and Tehran flights."),
+        ("KOREA CATCHES 111 EXAM CHEATS",
+         "New measures catch 111 students in entrance exams."),
+        ("NEPAL'S PM FACES INDIA TEST",
+         "Balendra Shah's first Delhi visit tests old ties."),
+    ]),
+    ("SOUTH ASIA", (91, 58, 110), [
+        ("INDIA BUSTS OPIOID NETWORK",
+         "Six held in ring shipping opioids to US via apps."),
+        ("INDIA DRIVES ENERGY GROWTH: IEA",
+         "India drives energy growth amid Hormuz crisis."),
+        ("MODI OPENS SCO DIALOGUE FORUM",
+         "PM inaugurates first SCO Civilisational Dialogue."),
+    ]),
+    ("MIDDLE EAST", (119, 112, 31), [
+        ("US BLOCKADE OF IRAN HOLDS",
+         "Blockade holds; Tehran warns on tanker attacks."),
+        ("SAUDIS DOWN HOUTHI MISSILES",
+         "Coalition intercepted three Houthi missiles."),
+        ("HOUTHI ATTACKS CLOUD SAUDI PACT",
+         "Attacks fuel Senate doubts on Trump nuclear deal."),
+        ("IRAQ MOVES ON MILITIA STRONGHOLD",
+         "Forces deploy to Jurf al-Sakhar after militia deal."),
+        ("GAZA CHILDREN MARK THEIR DAY",
+         "Displaced children mark World Children's Day."),
+    ]),
+    ("AFRICA", (150, 81, 31), [
+        ("ANGOLA BUYS 10% OF DE BEERS",
+         "Luanda pays $180m for a 10% stake in De Beers."),
+        ("ANC FIGHTS TO HOLD KEY CITIES",
+         "Ruling party fights to hold cities after setback."),
+        ("600 WOMEN KILLED IN SOUTH AFRICA",
+         "Nearly 600 women killed in three months."),
+        ("SOUTH AFRICA HOLDS RATES",
+         "Central bank held benchmark at 7.25% in split vote."),
+        ("MOURNERS DIE IN NIGERIA BOAT SINKING",
+         "Boat to a funeral capsized; at least four dead."),
+        ("KENYA PICKS US GROUP FOR MINERALS",
+         "US group to develop Mrima Hill minerals project."),
+        ("SOMALIA ACCUSES UAE OF INVASION",
+         "Mogadishu: UAE meddling is an 'open invasion'."),
+    ]),
+    ("LATIN AMERICA", (39, 86, 107), [
+        ("HAITI POLICE: 34 GANG SUSPECTS KILLED",
+         "Police say 34 suspected gang members were killed."),
+        ("THREE SALVADORAN SOLDIERS DIE IN HAITI",
+         "First deaths reported since the deployment began."),
+        ("CHINA CHEMICALS LINKED TO SINALOA",
+         "US: Chinese chemicals were for Sinaloa cartel."),
+        ("RARE IMAGES OF ISOLATED AMAZON TRIBE",
+         "Images of uncontacted group highlight land threats."),
+        ("DROUGHT STRANDS AMAZON HOMES",
+         "Low waters near Manaus left floating homes in mud."),
+    ]),
+]
+
+# (big figure, caption) - all figures taken from the day's stories above.
+NUMBERS = [
+    ("$81BN", "RECORD ANTHROPIC IPO"),
+    ("462", "DOWNED OVER UKRAINE"),
+    ("30", "DEAD IN KRAMATORSK"),
+    ("$811M", "MIGRANT-SCAM FINES"),
+    ("111", "KOREA EXAM CHEATS"),
+    ("$228BN", "US TREASURY HOLDINGS"),
+]
+
+# (UTC time, short label) - times as reported by the wires that day.
+TIMELINE = [
+    ("00:50", "EUROPE TALKS OFFER"),
+    ("02:40", "UK-EU YOUTH DEAL"),
+    ("03:32", "NVIDIA SUBPOENA"),
+    ("04:23", "KYIV BRIDGES HIT"),
+    ("05:23", "CYBER CHIEF OUT"),
+    ("11:50", "ANTHROPIC SLIDES"),
+    ("13:31", "DE BEERS $180M"),
+    ("17:35", "DENMARK PLOT CLAIM"),
+    ("17:49", "CLOSER EU TIES"),
+    ("19:54", "JAZEERA US DEAL"),
+    ("20:34", "PALISADES VERDICT"),
+    ("23:15", "'KILLER' JIBE AT PUTIN"),
+]
